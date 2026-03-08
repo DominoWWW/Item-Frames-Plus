@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "building",
+    "pattern": [
+        "111",
+        "121",
+        "111"
+    ],
+    "key": {
+        "1": "minecraft:glow_item_frame",
+        "2": "minecraft:phantom_membrane"
+    },
+    "result": {
+        "components": {
+            "minecraft:enchantment_glint_override": true,
+            "minecraft:custom_name": {
+                "text": "Invisible Glow Item Frame",
+                "italic": false
+            },
+            "minecraft:custom_data": "{iipInvisible:1b}",
+            "minecraft:custom_model_data": {
+                "strings": [
+                    "invisible_glow_item_frame"
+                ]
+            }
+        },
+        "count": 8,
+        "id": "minecraft:glow_item_frame"
+    }
+}

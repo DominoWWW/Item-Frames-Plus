@@ -1,0 +1,36 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_membrane": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:phantom_membrane"
+                    }
+                ]
+            }
+        },
+        "has_item_frame": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:glow_item_frame"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_membrane",
+            "has_item_frame"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "item_frames_plus:invisible_glow_item_frame"
+        ]
+    }
+}
