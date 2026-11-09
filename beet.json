@@ -11,7 +11,7 @@
         "min_format": [94, 1],
         "max_format": [121, 0],
 
-        "zipped": true,
+        "zipped": false,
         "load": ["src"]
     },
     "pipeline": ["mecha"],
