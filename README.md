@@ -10,7 +10,7 @@ Adds a crafting recipe for invisible item frames and the ability to lock them wi
 - Lock item frames by sneaking and right clicking with a glass pane.
 - Support for custom textures with the `invisible_item_frame` and `invisible_glow_item_frame` strings
 ## Crafting
-<img src="https://github.com/DominoWWW/Item-Frames-Plus/blob/main/readme-images/crafting.gif?raw=true" width="800" alt="Crafting recipe for the datapack."/>
+<img src="https://github.com/DominoWWW/Item-Frames-Plus/blob/main/readme-images/crafting.gif?raw=true" width="400" alt="Crafting recipe for the datapack."/>
 
 ## Preview
 <img src="https://github.com/DominoWWW/Item-Frames-Plus/blob/main/readme-images/demonstration.gif?raw=true" width="800" alt="A gif demonstrating the datapack."/>
