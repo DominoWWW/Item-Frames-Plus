@@ -1,3 +1,0 @@
-data merge entity @n[type=item,nbt={Item:{id:"minecraft:item_frame"}},distance=..1] {Item:{components:{enchantment_glint_override:true,custom_model_data:{strings:["invisible_item_frame"]},custom_name:{text:"Invisible Item Frame",italic:false},custom_data:{iipInvisible:1b}}}}
-data merge entity @n[type=item,nbt={Item:{id:"minecraft:glow_item_frame"}},distance=..1] {Item:{components:{enchantment_glint_override:true,custom_model_data:{strings:["invisible_glow_item_frame"]},custom_name:{text:"Invisible Glow Item Frame",italic:false},custom_data:{iipInvisible:1b}}}}
-kill @s

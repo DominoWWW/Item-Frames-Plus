@@ -17,7 +17,7 @@
                 "text": "Invisible Glow Item Frame",
                 "italic": false
             },
-            "minecraft:custom_data": "{iipInvisible:1b}",
+            "minecraft:custom_data": "{ifp_invisible:1b}",
             "minecraft:custom_model_data": {
                 "strings": [
                     "invisible_glow_item_frame"

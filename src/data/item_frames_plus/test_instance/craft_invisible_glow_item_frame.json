@@ -1,0 +1,6 @@
+{
+    "type": "block_based",
+    "environment": "minecraft:default",
+    "structure": "item_frames_plus:test/craft_invisible_glow_item_frame",
+    "max_ticks": 20
+}

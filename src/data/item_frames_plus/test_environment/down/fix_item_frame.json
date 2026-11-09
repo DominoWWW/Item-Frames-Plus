@@ -1,0 +1,4 @@
+{
+    "type": "function",
+    "teardown": "item_frames_plus:test/down/fix_item_frame"
+}

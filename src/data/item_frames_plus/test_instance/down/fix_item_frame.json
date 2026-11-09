@@ -1,0 +1,6 @@
+{
+    "type": "block_based",
+    "environment": "item_frames_plus:down/fix_item_frame",
+    "structure": "item_frames_plus:test/down/fix_item_frame",
+    "max_ticks": 200
+}

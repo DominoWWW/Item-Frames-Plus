@@ -1,17 +1,17 @@
 {
     "name": "Item Frames+",
     "author": "DominoWWW",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "require": [
         "bolt"
     ],
     "data_pack": {
-        "name": "Item Frames+_v1.0.0",
-        "description": [{"text":"Adds a crafting recipe for invisible item frames.","color":"gold"},{"text":"\nby DominoWWW","italic":true,"color":"yellow"}],
+        "name": "Item Frames+",
+        "description": [{"text":"Adds a crafting recipe for invisible item frames and the ability to lock them with a glass panes.","color":"gold"},{"text":"\nby DominoWWW","italic":true,"color":"yellow"}],
         "min_format": [94, 1],
-        "max_format": [94, 1],
+        "max_format": [121, 0],
 
-        "zipped": false,
+        "zipped": true,
         "load": ["src"]
     },
     "pipeline": ["mecha"],
