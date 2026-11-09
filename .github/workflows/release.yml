@@ -24,6 +24,7 @@ jobs:
           metadata = YAML.load_file("release.yml")
           File.open(ENV.fetch("GITHUB_OUTPUT"), "a") do |output|
             output.puts "RELEASE_NAME=#{metadata.fetch("Name")}"
+            output.puts "WORKSPACE=#{metadata.fetch("workspace")}" 
             output.puts "VERSION=#{metadata.fetch("version")}"
             output.puts "MINECRAFT_VERSION=#{metadata.fetch("minecraft_version")}"
             output.puts "NOTES<<EOF"
@@ -38,7 +39,7 @@ jobs:
           beet build
       - name: Remove test files
         env:
-          DATAPACK_PATH: build/${{ steps.metadata.outputs.RELEASE_NAME }}
+          DATAPACK_PATH: build/${{ steps.metadata.outputs.WORKSPACE }}
         run: |
           NAMESPACE=$(find "$DATAPACK_PATH/data" -mindepth 1 -maxdepth 1 -type d -printf '%f\n' | head -n 1)
           test -n "$NAMESPACE"
@@ -49,7 +50,7 @@ jobs:
             "$DATAPACK_PATH/data/$NAMESPACE/test_instance"
       - name: Zip datapack
         env:
-          DATAPACK_PATH: build/${{ steps.metadata.outputs.RELEASE_NAME }}
+          DATAPACK_PATH: build/${{ steps.metadata.outputs.WORKSPACE }}
           ASSET_PATH: ${{ steps.metadata.outputs.RELEASE_NAME }}_v${{ steps.metadata.outputs.VERSION }}_${{ steps.metadata.outputs.MINECRAFT_VERSION }}.zip
         run: |
           cd "$DATAPACK_PATH"
